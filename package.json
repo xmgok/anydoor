@@ -1,0 +1,34 @@
+{
+  "name": "anydoor",
+  "version": "1.0.0",
+  "description": "",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint .",
+    "fix": "eslint --fix ."
+  },
+  "pre-commit": [
+    "fix",
+    "lint"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xmgok/anydoor.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xmgok/anydoor/issues"
+  },
+  "homepage": "https://github.com/xmgok/anydoor#readme",
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.8.0",
+    "pre-commit": "^1.2.2"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "handlebars": "^4.7.6"
+  }
+}
